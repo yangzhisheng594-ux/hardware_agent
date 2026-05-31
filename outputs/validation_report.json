@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "rule": "POWER_VCC",
+      "passed": true,
+      "message": "At least one component is connected to 3.3V"
+    },
+    {
+      "rule": "GND_CONN",
+      "passed": true,
+      "message": "GND connection exists"
+    },
+    {
+      "rule": "I2C_PULLUP",
+      "passed": true,
+      "message": "I2C pull-up resistor connection exists"
+    },
+    {
+      "rule": "DECOUPLING_CAP",
+      "passed": true,
+      "message": "Decoupling capacitor is specified"
+    },
+    {
+      "rule": "COMPONENT_INTEGRITY",
+      "passed": true,
+      "message": "All referenced components are declared"
+    },
+    {
+      "rule": "CITATION_EXISTS",
+      "passed": true,
+      "message": "Citations exist"
+    }
+  ]
+}
